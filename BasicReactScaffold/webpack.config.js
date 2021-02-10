@@ -8,9 +8,6 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "build", "bundle.js"),
   },
-  devServer: {
-    historyApiFallback: true,
-  },
   module: {
     rules: [
       {
